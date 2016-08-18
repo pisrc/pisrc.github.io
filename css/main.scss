@@ -51,3 +51,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// pi's css
+// 코드 블록에서 style 변경합니다. (horizontal scroll 안보이도록 수정)
+pre.highlight code {
+  white-space: pre-wrap;
+}

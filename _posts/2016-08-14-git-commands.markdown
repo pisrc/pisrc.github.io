@@ -52,7 +52,9 @@ remote repository 와의 비교
 archive
 =======
 
-* git archive --format=tar --prefix=hue/ HEAD | gzip > hue.tar.gz : archive 예제
+```bash
+$ git archive --format=tar --prefix=archivename/ HEAD | gzip > archivename.tar.gz : archive 예제
+```
 
 롤백
 ===
